@@ -3,4 +3,13 @@
 
 body {
     background-color: blue;
+    &.bs4-demo {
+        .jumbotron {
+            background-color: goldenrod;
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
 }
+
